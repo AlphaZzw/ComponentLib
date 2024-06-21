@@ -19,14 +19,12 @@
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/view/FlymeViewCompatKt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/view/ViewPager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/widget/AbsStateButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/widget/CloudTextView.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/widget/FlymeStateButton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/widget/LoadingStateButton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/java/com/neteasecloud/componentlib/widget/StateButtonAttrHelper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/res/values/attrs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/component-lib/src/main/res/values/ids.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718953046158</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat:add CloudTextView">
+      <created>1718964323002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718964323002</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,6 +473,7 @@
     <MESSAGE value="创建网易云组件库仓库" />
     <MESSAGE value="feat:add mvvm" />
     <MESSAGE value="feat:add Dog util" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:add Dog util" />
+    <MESSAGE value="feat:add CloudTextView" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add CloudTextView" />
   </component>
 </project>

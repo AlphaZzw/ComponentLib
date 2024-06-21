@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComponentLib</string>
+    <string name="cloud_component_lib">网易云组件库</string>
 </resources>
