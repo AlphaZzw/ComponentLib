@@ -9,19 +9,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5cf65e-e1b8-4fda-935d-404a16ecdfb9" name="Changes" comment="feat:add mvvm">
-      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/model/MainViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/utils/InitHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0e5cf65e-e1b8-4fda-935d-404a16ecdfb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/ComponentApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/utils/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/activity/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/code/Git/ComponentLib",
+    "last_opened_file_path": "E:/code/Git/ComponentLib/component-lib-demo/src/main/java/com/neteasecloud/test/utils",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -88,6 +83,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Git\ComponentLib\component-lib-demo\src\main\java\com\neteasecloud\test\utils" />
       <recent name="E:\code\Git\ComponentLib\component-lib-demo\src\main\java\com\neteasecloud\test\base" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -416,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718936173795</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:add mvvm">
+      <created>1718951663047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718951663047</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,6 +436,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="创建网易云组件库仓库" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建网易云组件库仓库" />
+    <MESSAGE value="feat:add mvvm" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add mvvm" />
   </component>
 </project>

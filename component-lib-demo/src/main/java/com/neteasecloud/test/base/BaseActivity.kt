@@ -10,10 +10,11 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModelProvider
 import com.neteasecloud.test.BR
+import com.neteasecloud.test.utils.Dog
 import com.neteasecloud.test.utils.InitHelper
 
 abstract class BaseActivity<T : ViewDataBinding, VM : BaseViewModel> : AppCompatActivity() {
-
+    private val TAG = javaClass.simpleName
     protected var binding: T? = null
     protected var vm: VM? = null
 
@@ -34,6 +35,7 @@ abstract class BaseActivity<T : ViewDataBinding, VM : BaseViewModel> : AppCompat
         }
         setContentView(rootView)
         initView()
+        Dog.d(TAG,"onCreate")
     }
 
     abstract fun getLayoutId(): Int

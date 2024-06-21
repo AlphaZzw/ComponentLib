@@ -1,7 +1,6 @@
 package com.neteasecloud.test.base
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.neteasecloud.test.BR
+import com.neteasecloud.test.utils.Dog
 import com.neteasecloud.test.utils.InitHelper
 
 abstract class BaseFragment<T : ViewDataBinding, VM : ViewModel> : Fragment() {
@@ -22,7 +22,7 @@ abstract class BaseFragment<T : ViewDataBinding, VM : ViewModel> : Fragment() {
 
     override fun onHiddenChanged(hidden: Boolean) {
         super.onHiddenChanged(hidden)
-        Log.d(TAG, "onHiddenChanged isVisible = ${!hidden}")
+        Dog.d(TAG, "onHiddenChanged isVisible = ${!hidden}")
     }
 
     @LayoutRes
@@ -46,7 +46,7 @@ abstract class BaseFragment<T : ViewDataBinding, VM : ViewModel> : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-        Log.d(TAG, "onCreateView $savedInstanceState")
+        Dog.d(TAG, "onCreateView $savedInstanceState")
         if (binding?.root != null) {
             return binding?.root
         }
@@ -71,7 +71,7 @@ abstract class BaseFragment<T : ViewDataBinding, VM : ViewModel> : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Log.d(TAG, "onViewCreated $savedInstanceState")
+        Dog.d(TAG, "onViewCreated $savedInstanceState")
         initView()
         handleParameters(arguments)
     }
