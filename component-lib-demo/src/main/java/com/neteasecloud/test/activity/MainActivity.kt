@@ -1,12 +1,19 @@
 package com.neteasecloud.test.activity
 
-import android.app.Activity
 import android.os.Bundle
 import com.neteasecloud.test.R
+import com.neteasecloud.test.base.BaseActivity
+import com.neteasecloud.test.databinding.ActivityMainBinding
+import com.neteasecloud.test.model.MainViewModel
 
-class MainActivity : Activity() {
+class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setStatusBar()
+    }
+
+    override fun getLayoutId(): Int = R.layout.activity_main
+
+    override fun initView() {
     }
 }

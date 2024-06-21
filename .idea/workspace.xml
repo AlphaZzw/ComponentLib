@@ -9,12 +9,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5cf65e-e1b8-4fda-935d-404a16ecdfb9" name="Changes" comment="">
+    <list default="true" id="0e5cf65e-e1b8-4fda-935d-404a16ecdfb9" name="Changes" comment="feat:add mvvm">
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/base/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/model/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/utils/InitHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/java/com/neteasecloud/test/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib-demo/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component-lib/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-lib/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-lib/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +74,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "android.gradle.sync.needed": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/code/Git/ComponentLib/component-lib",
+    "last_opened_file_path": "E:/code/Git/ComponentLib",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -77,12 +83,22 @@
   }
 }]]></component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Properties" />
+    <option name="MODULE_TAB" value="Signing Configs" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Git\ComponentLib\component-lib-demo\src\main\java\com\neteasecloud\test\base" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.neteasecloud.test.base" />
+      <recent name="com.neteasecloud.test.utils" />
+    </key>
     <key name="android.template.990074506">
       <recent name="com.neteasecloud.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neteasecloud.test.base" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.component-lib-demo">
@@ -348,19 +364,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ComponentLib.component-lib" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ComponentLib.component-lib" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -406,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718934580181</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="创建网易云组件库仓库">
+      <created>1718936173795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718936173795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,6 +432,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="创建网易云组件库仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建网易云组件库仓库" />
   </component>
 </project>
