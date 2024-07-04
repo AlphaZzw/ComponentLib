@@ -11,6 +11,7 @@
         android:theme="@style/Theme.ComponentLib">
         <activity
             android:name="com.neteasecloud.test.activity.MainActivity"
+            android:configChanges="mnc|mcc"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

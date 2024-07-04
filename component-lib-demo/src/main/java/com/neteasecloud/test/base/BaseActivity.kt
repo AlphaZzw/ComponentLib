@@ -3,6 +3,7 @@ package com.neteasecloud.test.base
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +11,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModelProvider
 import com.neteasecloud.test.BR
+import com.neteasecloud.test.ComponentApplication
 import com.neteasecloud.test.utils.Dog
 import com.neteasecloud.test.utils.InitHelper
 
@@ -19,6 +21,13 @@ abstract class BaseActivity<T : ViewDataBinding, VM : BaseViewModel> : AppCompat
     protected var vm: VM? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        if (ComponentApplication.instance().isRD()) {
+            val configuration = resources.configuration
+            Log.d(TAG, "configuration = " + configuration + "; mnc " + configuration.mnc)
+            configuration.mnc = 200
+            resources.updateConfiguration(configuration, resources.displayMetrics)
+            Log.d(TAG, "configuration = " + configuration + "; mnc " + configuration.mnc)
+        }
         super.onCreate(savedInstanceState)
         val rootView = layoutInflater.inflate(getLayoutId(), null)
         binding = DataBindingUtil.bind(rootView)
