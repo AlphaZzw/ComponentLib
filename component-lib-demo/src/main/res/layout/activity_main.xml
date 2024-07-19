@@ -23,5 +23,53 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="938dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            app:dividerDrawable="@drawable/line_divider"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showDivider="middle">
+
+            <TextView
+                android:layout_width="452dp"
+                android:layout_height="136dp"
+                android:gravity="center"
+                android:text="Apple"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="452dp"
+                android:layout_height="136dp"
+                android:gravity="center"
+                android:text="Banana"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="452dp"
+                android:layout_height="136dp"
+                android:gravity="center"
+                android:text="Orange"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="452dp"
+                android:layout_height="136dp"
+                android:gravity="center"
+                android:text="Pear"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="452dp"
+                android:layout_height="136dp"
+                android:gravity="center"
+                android:text="Watermelon"
+                android:textSize="34sp" />
+        </com.google.android.flexbox.FlexboxLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

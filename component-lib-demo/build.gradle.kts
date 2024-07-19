@@ -53,4 +53,5 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
     testImplementation("junit:junit:4.12")
     implementation(project(":component-lib"))
+    implementation("com.google.android.flexbox:flexbox:3.0.0")
 }
